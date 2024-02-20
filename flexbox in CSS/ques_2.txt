@@ -1,0 +1,24 @@
+justify-content
+
+Role: Controls the alignment of flex items on the main axis (horizontal if flex-direction is row, vertical if flex-direction is column).
+Usage: It can distribute extra space left over when all flexible items have reached their maximum size or shrink to their minimum size. Common values include flex-start, flex-end, center, space-between, space-around, and space-evenly.
+Example: If you want to center items horizontally in a container, you would use justify-content: center;.
+
+align-items
+
+Role: Controls the alignment of items on the cross axis (opposite of the main axis).
+Usage: It aligns items in a way that applies to all items within the container, such as flex-start, flex-end, center, baseline, and stretch.
+Example: To align items vertically in the center of a container, you would use align-items: center;.
+
+gap
+
+Role: Specifies the spacing between flex items. It can define both row and column gaps in a single shorthand property.
+Usage: Before gap was adopted for Flexbox, spacing had to be managed by applying margins to flex items; gap simplifies this process by providing a straightforward way to add space between items.
+Example: To add 20 pixels of space between flex items, you would use gap: 20px;.
+
+flex-wrap
+
+Role: Determines whether flex items are forced onto one line or can wrap onto multiple lines.
+Usage: By default, flex items will all try to fit onto one line (nowrap). You can change this behavior to allow the items to wrap as needed with wrap or in reverse with wrap-reverse.
+Example: To allow items to wrap to new lines as needed based on their size and the container size, you would use flex-wrap: wrap;.
+These properties are essential tools for creating responsive, flexible layouts that adapt to the content's size and the viewing environment. They work together to provide a high level of control over the alignment, spacing, and overall behavior of items within a flex container, making Flexbox a powerful and versatile layout model for web design.
